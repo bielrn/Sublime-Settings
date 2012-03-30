@@ -190,18 +190,18 @@
 			"buffers":
 			[
 				{
-					"file": "/Users/ericlalande/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+					"contents": "",
 					"settings":
 					{
-						"buffer_size": 316,
+						"buffer_size": 0,
 						"line_ending": "Unix"
 					}
 				},
 				{
-					"contents": "<!DOCTYPE HTML>\n<html lang=\"en-US\">\n<head>\n	<meta charset=\"UTF-8\">\n	<title></title>\n</head>\n<body>\n\n\n\n\n</body>\n</html>",
+					"file": "/Users/ericlalande/Library/Application Support/Sublime Text 2/Packages/User/Fetch.sublime-settings",
 					"settings":
 					{
-						"buffer_size": 118,
+						"buffer_size": 3911,
 						"line_ending": "Unix"
 					}
 				},
@@ -214,26 +214,10 @@
 					}
 				},
 				{
-					"file": "/Users/ericlalande/Library/Application Support/Sublime Text 2/Packages/SublimeCodeIntel/Base File.sublime-settings",
-					"settings":
-					{
-						"buffer_size": 1011,
-						"line_ending": "Unix"
-					}
-				},
-				{
 					"contents": "body{\n	background-color:red;\n	margin:auto;\n	\n}",
 					"settings":
 					{
 						"buffer_size": 46,
-						"line_ending": "Unix"
-					}
-				},
-				{
-					"file": "/Users/ericlalande/Desktop/Sublime Text 2/Packages/User/Preferences.sublime-settings",
-					"settings":
-					{
-						"buffer_size": 263,
 						"line_ending": "Unix"
 					}
 				}
@@ -241,9 +225,13 @@
 			"build_system": "",
 			"command_palette":
 			{
-				"height": 375.0,
+				"height": 292.0,
 				"selected_items":
 				[
+					[
+						"fet",
+						"Fetch"
+					],
 					[
 						"ins",
 						"Package Control: Install Package"
@@ -265,7 +253,7 @@
 						"Set Syntax: CSS"
 					]
 				],
-				"width": 516.0
+				"width": 435.0
 			},
 			"console":
 			{
@@ -282,6 +270,9 @@
 			},
 			"file_history":
 			[
+				"/Users/ericlalande/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+				"/Users/ericlalande/Desktop/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+				"/Users/ericlalande/Library/Application Support/Sublime Text 2/Packages/SublimeCodeIntel/Base File.sublime-settings",
 				"/Users/ericlalande/Library/Application Support/Sublime Text 2/Packages/Package Control/Package Control.sublime-settings",
 				"/Users/ericlalande/Library/Application Support/Sublime Text 2/Packages/Default/Preferences.sublime-settings"
 			],
@@ -323,43 +314,17 @@
 					[
 						{
 							"buffer": 0,
-							"file": "/Users/ericlalande/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
 							"settings":
 							{
-								"buffer_size": 316,
+								"buffer_size": 0,
 								"regions":
 								{
 								},
 								"selection":
 								[
 									[
-										315,
-										315
-									]
-								],
-								"settings":
-								{
-									"syntax": "Packages/JavaScript/JSON.tmLanguage"
-								},
-								"translation.x": 0.0,
-								"translation.y": 0.0,
-								"zoom_level": 1.0
-							},
-							"type": "text"
-						},
-						{
-							"buffer": 1,
-							"settings":
-							{
-								"buffer_size": 118,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										100,
-										100
+										0,
+										0
 									]
 								],
 								"settings":
@@ -369,6 +334,32 @@
 								},
 								"translation.x": 0.0,
 								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"type": "text"
+						},
+						{
+							"buffer": 1,
+							"file": "/Users/ericlalande/Library/Application Support/Sublime Text 2/Packages/User/Fetch.sublime-settings",
+							"settings":
+							{
+								"buffer_size": 3911,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										3834,
+										3834
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/JavaScript/JSON.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 102.0,
 								"zoom_level": 1.0
 							},
 							"type": "text"
@@ -400,34 +391,6 @@
 						},
 						{
 							"buffer": 3,
-							"file": "/Users/ericlalande/Library/Application Support/Sublime Text 2/Packages/SublimeCodeIntel/Base File.sublime-settings",
-							"settings":
-							{
-								"buffer_size": 1011,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										1002,
-										1002
-									]
-								],
-								"settings":
-								{
-									"syntax": "Packages/JavaScript/JSON.tmLanguage",
-									"tab_size": 4,
-									"translate_tabs_to_spaces": true
-								},
-								"translation.x": 0.0,
-								"translation.y": 0.0,
-								"zoom_level": 1.0
-							},
-							"type": "text"
-						},
-						{
-							"buffer": 4,
 							"settings":
 							{
 								"buffer_size": 46,
@@ -444,33 +407,6 @@
 								"settings":
 								{
 									"syntax": "Packages/CSS/CSS.tmLanguage"
-								},
-								"translation.x": 0.0,
-								"translation.y": 0.0,
-								"zoom_level": 1.0
-							},
-							"type": "text"
-						},
-						{
-							"buffer": 5,
-							"file": "/Users/ericlalande/Desktop/Sublime Text 2/Packages/User/Preferences.sublime-settings",
-							"settings":
-							{
-								"buffer_size": 263,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										226,
-										260
-									]
-								],
-								"settings":
-								{
-									"syntax": "Packages/JavaScript/JSON.tmLanguage",
-									"translate_tabs_to_spaces": false
 								},
 								"translation.x": 0.0,
 								"translation.y": 0.0,

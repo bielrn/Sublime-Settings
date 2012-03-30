@@ -4,6 +4,7 @@
 	[
 		"CoffeeScript",
 		"Cucumber",
+		"DetectSyntax",
 		"Haml",
 		"HTML Export",
 		"HTML5",
