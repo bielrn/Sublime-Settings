@@ -138,12 +138,24 @@
 				"selected_items":
 				[
 					[
-						"input",
-						"input	input - file"
+						"be",
+						"befs	before_save"
+					],
+					[
+						"r",
+						"rw	attr_accessor .."
+					],
+					[
+						"cla",
+						"cla	class .. end"
 					],
 					[
 						"form",
-						"<form action=\"$1001\">${1002:$SELECTION}</form>"
+						"form	<form>"
+					],
+					[
+						"input",
+						"input	input - file"
 					],
 					[
 						"for",
@@ -166,10 +178,26 @@
 					}
 				},
 				{
-					"contents": "<!DOCTYPE HTML>\n<html lang=\"en-US\">\n<head>\n	<meta charset=\"UTF-8\">\n	<title></title>\n</head>\n<body>\n	<div>\n		<ul>\n			<li><a href=\"\">item\n				</a></li>\n			<li><a href=\"\">item\n				</a></li>\n			<li><a href=\"\">item\n				</a></li>\n			<li><a href=\"\">item\n				</a></li>\n			<li><a href=\"\">item\n				</a></li>\n		</ul>\n	</div>\n\n\n</body>\n</html>",
+					"contents": "<!DOCTYPE HTML>\n<html lang=\"en-US\">\n<head>\n	<meta charset=\"UTF-8\">\n	<title></title>\n</head>\n<body>\n	<div>\n		<ul>\n			<li><a href=\"\">item\n				</a></li>\n			<li><a href=\"\">item\n				</a></li>\n			<li><a href=\"\">item\n				</a></li>\n			<li><a href=\"\">item\n				</a></li>\n			<li><a href=\"\">item\n				</a></li>\n		</ul>\n	</div>\n\ndiv\n</body>\n</html>",
 					"settings":
 					{
-						"buffer_size": 331,
+						"buffer_size": 334,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"contents": "class myClass\n\n  attr_accessor :attr_names\n  before_save :test\n\n\n  validates_presence_of :v, :on => :create, :message => \"can't be blank\" \nend",
+					"settings":
+					{
+						"buffer_size": 142,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/Users/ericlalande/Library/Application Support/Sublime Text 2/Packages/SublimeCodeIntel/Base File.sublime-settings",
+					"settings":
+					{
+						"buffer_size": 1011,
 						"line_ending": "Unix"
 					}
 				},
@@ -201,6 +229,10 @@
 						"Package Control: Install Package"
 					],
 					[
+						"setrub",
+						"Set Syntax: Ruby on Rails"
+					],
+					[
 						"in",
 						"Package Control: Install Package"
 					],
@@ -213,7 +245,7 @@
 						"Set Syntax: CSS"
 					]
 				],
-				"width": 588.0
+				"width": 516.0
 			},
 			"console":
 			{
@@ -266,7 +298,7 @@
 			"groups":
 			[
 				{
-					"selected": 1,
+					"selected": 2,
 					"sheets":
 					[
 						{
@@ -299,15 +331,15 @@
 							"buffer": 1,
 							"settings":
 							{
-								"buffer_size": 331,
+								"buffer_size": 334,
 								"regions":
 								{
 								},
 								"selection":
 								[
 									[
-										315,
-										315
+										334,
+										334
 									]
 								],
 								"settings":
@@ -323,6 +355,59 @@
 						},
 						{
 							"buffer": 2,
+							"settings":
+							{
+								"buffer_size": 142,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										142,
+										142
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/Rails/Ruby on Rails.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"type": "text"
+						},
+						{
+							"buffer": 3,
+							"file": "/Users/ericlalande/Library/Application Support/Sublime Text 2/Packages/SublimeCodeIntel/Base File.sublime-settings",
+							"settings":
+							{
+								"buffer_size": 1011,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										1002,
+										1002
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/JavaScript/JSON.tmLanguage",
+									"tab_size": 4,
+									"translate_tabs_to_spaces": true
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"type": "text"
+						},
+						{
+							"buffer": 4,
 							"settings":
 							{
 								"buffer_size": 46,
@@ -347,7 +432,7 @@
 							"type": "text"
 						},
 						{
-							"buffer": 3,
+							"buffer": 5,
 							"file": "/Users/ericlalande/Desktop/Sublime Text 2/Packages/User/Preferences.sublime-settings",
 							"settings":
 							{
@@ -407,7 +492,7 @@
 				]
 			},
 			"menu_visible": true,
-			"position": "636 76 1284 982 0 0 1920 1058 ",
+			"position": "16 76 1284 982 0 0 1920 1058 ",
 			"replace":
 			{
 				"height": 0.0
