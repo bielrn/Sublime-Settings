@@ -137,6 +137,10 @@
 			{
 				"selected_items":
 				[
+					[
+						"bacc",
+						"background-color"
+					]
 				]
 			},
 			"buffers":
@@ -158,10 +162,18 @@
 					}
 				},
 				{
-					"contents": "<!DOCTYPE HTML>\n<html lang=\"en-US\">\n<head>\n	<meta charset=\"UTF-8\">\n	<title></title>\n</head>\n<body>\n	\n</body>\n</html>",
+					"contents": "<!DOCTYPE HTML>\n<html lang=\"en-US\">\n<head>\n	<meta charset=\"UTF-8\">\n	<title></title>\n</head>\n<body>\n	div>ul>li*5>a>{item}\n</body>\n</html>",
 					"settings":
 					{
-						"buffer_size": 116,
+						"buffer_size": 136,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"contents": "body{\n	background-color:red;\n	margin:auto;\n	\n}",
+					"settings":
+					{
+						"buffer_size": 46,
 						"line_ending": "Unix"
 					}
 				},
@@ -177,9 +189,13 @@
 			"build_system": "",
 			"command_palette":
 			{
-				"height": 375.0,
+				"height": 160.0,
 				"selected_items":
 				[
+					[
+						"setcs",
+						"Set Syntax: CSS"
+					],
 					[
 						"ins",
 						"Package Control: Install Package"
@@ -193,7 +209,7 @@
 						"Package Control: Install Package"
 					]
 				],
-				"width": 561.0
+				"width": 435.0
 			},
 			"console":
 			{
@@ -244,7 +260,7 @@
 			"groups":
 			[
 				{
-					"selected": 2,
+					"selected": 3,
 					"sheets":
 					[
 						{
@@ -305,15 +321,15 @@
 							"buffer": 2,
 							"settings":
 							{
-								"buffer_size": 116,
+								"buffer_size": 136,
 								"regions":
 								{
 								},
 								"selection":
 								[
 									[
-										100,
-										100
+										120,
+										120
 									]
 								],
 								"settings":
@@ -328,6 +344,31 @@
 						},
 						{
 							"buffer": 3,
+							"settings":
+							{
+								"buffer_size": 46,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										44,
+										44
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/CSS/CSS.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"type": "text"
+						},
+						{
+							"buffer": 4,
 							"file": "/Users/ericlalande/Desktop/Sublime Text 2/Packages/User/Preferences.sublime-settings",
 							"settings":
 							{
