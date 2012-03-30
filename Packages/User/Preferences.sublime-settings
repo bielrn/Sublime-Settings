@@ -1,4 +1,8 @@
 // Settings in here override those in "Default/Preferences.sublime-settings", and
 // are overridden in turn by file type specific settings.
-{
+{// Sets the colors used within the text area
+"color_scheme": "Packages/Railscasts.tmTheme",
+	"font_face": "Monofur",
+	"font_size": 18.0,
+	"theme": "Soda Dark.sublime-theme"
 }
