@@ -2,10 +2,15 @@
 	"auto_upgrade_last_run": 1333134553,
 	"installed_packages":
 	[
+		"CoffeeScript",
+		"Haml",
 		"HTML Export",
 		"HTML5",
 		"Nettuts+ Fetch",
 		"Package Control",
+		"RSpec",
+		"Sass",
+		"SCSS",
 		"SublimeCodeIntel",
 		"Theme - Soda",
 		"ZenCoding"

@@ -138,6 +138,22 @@
 				"selected_items":
 				[
 					[
+						"v",
+						"vu	validates_uniqueness_of"
+					],
+					[
+						"hm",
+						"hmt	has_many (through)"
+					],
+					[
+						"ha",
+						"has_many"
+					],
+					[
+						"h",
+						"hm	has_many"
+					],
+					[
 						"be",
 						"befs	before_save"
 					],
@@ -186,10 +202,10 @@
 					}
 				},
 				{
-					"contents": "class myClass\n\n  attr_accessor :attr_names\n  before_save :test\n\n\n  validates_presence_of :v, :on => :create, :message => \"can't be blank\" \nend",
+					"contents": "class myClass\n\nit \"description\" do\n  response.should be_success\n  \nend\nend",
 					"settings":
 					{
-						"buffer_size": 142,
+						"buffer_size": 74,
 						"line_ending": "Unix"
 					}
 				},
@@ -357,20 +373,20 @@
 							"buffer": 2,
 							"settings":
 							{
-								"buffer_size": 142,
+								"buffer_size": 74,
 								"regions":
 								{
 								},
 								"selection":
 								[
 									[
-										142,
-										142
+										66,
+										66
 									]
 								],
 								"settings":
 								{
-									"syntax": "Packages/Rails/Ruby on Rails.tmLanguage"
+									"syntax": "Packages/RSpec/RSpec.tmLanguage"
 								},
 								"translation.x": 0.0,
 								"translation.y": 0.0,
