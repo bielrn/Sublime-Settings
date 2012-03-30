@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>sequence(:${1:attribute}${2:, initial value}) {|n| ${0:"#{n\}"} }</string>
+	<key>name</key>
+	<string>sequence in line</string>
+	<key>scope</key>
+	<string>source.ruby, source.ruby.rails, source.ruby.rspec</string>
+	<key>tabTrigger</key>
+	<string>seq</string>
+	<key>uuid</key>
+	<string>1BA69CAC-E302-4846-AFF7-93D811C2FF04</string>
+</dict>
+</plist>

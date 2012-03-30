@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>factory :${1:factory_name}${2:class =&gt; Model, :aliases =&gt; [:relationships]} do
+  $0
+end</string>
+	<key>name</key>
+	<string>factory</string>
+	<key>scope</key>
+	<string>source.ruby, source.ruby.rails, source.ruby.rspec</string>
+	<key>tabTrigger</key>
+	<string>fac</string>
+	<key>uuid</key>
+	<string>2595831C-7B9C-4096-B91D-EE140A1CF25C</string>
+</dict>
+</plist>

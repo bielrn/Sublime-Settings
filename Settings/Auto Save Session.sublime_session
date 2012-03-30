@@ -138,6 +138,10 @@
 				"selected_items":
 				[
 					[
+						"fa",
+						"fgaf	FactoryGirl attributes for"
+					],
+					[
 						"v",
 						"vu	validates_uniqueness_of"
 					],
@@ -194,18 +198,18 @@
 					}
 				},
 				{
-					"contents": "<!DOCTYPE HTML>\n<html lang=\"en-US\">\n<head>\n	<meta charset=\"UTF-8\">\n	<title></title>\n</head>\n<body>\n	<div>\n		<ul>\n			<li><a href=\"\">item\n				</a></li>\n			<li><a href=\"\">item\n				</a></li>\n			<li><a href=\"\">item\n				</a></li>\n			<li><a href=\"\">item\n				</a></li>\n			<li><a href=\"\">item\n				</a></li>\n		</ul>\n	</div>\n\ndiv\n</body>\n</html>",
+					"contents": "<!DOCTYPE HTML>\n<html lang=\"en-US\">\n<head>\n	<meta charset=\"UTF-8\">\n	<title></title>\n</head>\n<body>\n\n\n\n\n</body>\n</html>",
 					"settings":
 					{
-						"buffer_size": 334,
+						"buffer_size": 118,
 						"line_ending": "Unix"
 					}
 				},
 				{
-					"contents": "class myClass\n\nit \"description\" do\n  response.should be_success\n  \nend\nend",
+					"contents": "class myClass\n\nit \"description\" do\n  response.should be_success\n  FactoryGirl.attributes_for(:model, options)\nend\n\n\n\nend",
 					"settings":
 					{
-						"buffer_size": 74,
+						"buffer_size": 120,
 						"line_ending": "Unix"
 					}
 				},
@@ -245,15 +249,15 @@
 						"Package Control: Install Package"
 					],
 					[
+						"inst",
+						"Package Control: Install Package"
+					],
+					[
 						"setrub",
 						"Set Syntax: Ruby on Rails"
 					],
 					[
 						"in",
-						"Package Control: Install Package"
-					],
-					[
-						"inst",
 						"Package Control: Install Package"
 					],
 					[
@@ -314,7 +318,7 @@
 			"groups":
 			[
 				{
-					"selected": 2,
+					"selected": 1,
 					"sheets":
 					[
 						{
@@ -347,15 +351,15 @@
 							"buffer": 1,
 							"settings":
 							{
-								"buffer_size": 334,
+								"buffer_size": 118,
 								"regions":
 								{
 								},
 								"selection":
 								[
 									[
-										334,
-										334
+										100,
+										100
 									]
 								],
 								"settings":
@@ -373,15 +377,15 @@
 							"buffer": 2,
 							"settings":
 							{
-								"buffer_size": 74,
+								"buffer_size": 120,
 								"regions":
 								{
 								},
 								"selection":
 								[
 									[
-										66,
-										66
+										115,
+										115
 									]
 								],
 								"settings":
@@ -508,7 +512,7 @@
 				]
 			},
 			"menu_visible": true,
-			"position": "16 76 1284 982 0 0 1920 1058 ",
+			"position": "0 76 1920 982 0 0 1920 1058 ",
 			"replace":
 			{
 				"height": 0.0
