@@ -2,7 +2,10 @@
 	"auto_upgrade_last_run": 1333134553,
 	"installed_packages":
 	[
+		"HTML Export",
+		"HTML5",
 		"Nettuts+ Fetch",
+		"Package Control",
 		"SublimeCodeIntel",
 		"Theme - Soda",
 		"ZenCoding"

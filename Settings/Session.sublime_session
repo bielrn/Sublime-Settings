@@ -2,7 +2,7 @@
 	"folder_history":
 	[
 	],
-	"last_window_id": 1,
+	"last_window_id": 2,
 	"settings":
 	{
 		"new_window_height": 480.0,
@@ -132,6 +132,303 @@
 	},
 	"windows":
 	[
+		{
+			"auto_complete":
+			{
+				"selected_items":
+				[
+					[
+						"for",
+						"form"
+					],
+					[
+						"bacc",
+						"background-color"
+					]
+				]
+			},
+			"buffers":
+			[
+				{
+					"file": "/Users/ericlalande/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+					"settings":
+					{
+						"buffer_size": 316,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"contents": "<!DOCTYPE HTML>\n<html lang=\"en-US\">\n<head>\n	<meta charset=\"UTF-8\">\n	<title></title>\n</head>\n<body>\n	<div>\n		<ul>\n			<li><a href=\"\">item\n				</a></li>\n			<li><a href=\"\">item\n				</a></li>\n			<li><a href=\"\">item\n				</a></li>\n			<li><a href=\"\">item\n				</a></li>\n			<li><a href=\"\">item\n				</a></li>\n		</ul>\n	</div>\n\n	<div>\n		<ul>\n			<li><a href=\"\"></a></li>\n		</ul>\n	</div>\n	<div>\n		<ul>\n			<li><a href=\"\">item</a></li>\n		</ul>\n	</div>\n</body>\n</html>",
+					"settings":
+					{
+						"buffer_size": 450,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"contents": "body{\n	background-color:red;\n	margin:auto;\n	\n}",
+					"settings":
+					{
+						"buffer_size": 46,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/Users/ericlalande/Desktop/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+					"settings":
+					{
+						"buffer_size": 263,
+						"line_ending": "Unix"
+					}
+				}
+			],
+			"build_system": "",
+			"command_palette":
+			{
+				"height": 375.0,
+				"selected_items":
+				[
+					[
+						"in",
+						"Package Control: Install Package"
+					],
+					[
+						"inst",
+						"Package Control: Install Package"
+					],
+					[
+						"setcs",
+						"Set Syntax: CSS"
+					],
+					[
+						"ins",
+						"Package Control: Install Package"
+					]
+				],
+				"width": 561.0
+			},
+			"console":
+			{
+				"height": 125.0
+			},
+			"distraction_free":
+			{
+				"menu_visible": true,
+				"show_minimap": false,
+				"show_open_files": false,
+				"show_tabs": false,
+				"side_bar_visible": false,
+				"status_bar_visible": false
+			},
+			"file_history":
+			[
+				"/Users/ericlalande/Library/Application Support/Sublime Text 2/Packages/Package Control/Package Control.sublime-settings",
+				"/Users/ericlalande/Library/Application Support/Sublime Text 2/Packages/Default/Preferences.sublime-settings"
+			],
+			"find":
+			{
+				"height": 0.0
+			},
+			"find_in_files":
+			{
+				"height": 0.0,
+				"where_history":
+				[
+				]
+			},
+			"find_state":
+			{
+				"case_sensitive": false,
+				"find_history":
+				[
+				],
+				"highlight": true,
+				"in_selection": false,
+				"preserve_case": false,
+				"regex": false,
+				"replace_history":
+				[
+				],
+				"reverse": false,
+				"show_context": true,
+				"use_buffer2": true,
+				"whole_word": false,
+				"wrap": true
+			},
+			"groups":
+			[
+				{
+					"selected": 1,
+					"sheets":
+					[
+						{
+							"buffer": 0,
+							"file": "/Users/ericlalande/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+							"settings":
+							{
+								"buffer_size": 316,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										315,
+										315
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/JavaScript/JSON.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"type": "text"
+						},
+						{
+							"buffer": 1,
+							"settings":
+							{
+								"buffer_size": 450,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										403,
+										403
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/HTML/HTML.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"type": "text"
+						},
+						{
+							"buffer": 2,
+							"settings":
+							{
+								"buffer_size": 46,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										44,
+										44
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/CSS/CSS.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"type": "text"
+						},
+						{
+							"buffer": 3,
+							"file": "/Users/ericlalande/Desktop/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+							"settings":
+							{
+								"buffer_size": 263,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										226,
+										260
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/JavaScript/JSON.tmLanguage",
+									"translate_tabs_to_spaces": false
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"type": "text"
+						}
+					]
+				}
+			],
+			"incremental_find":
+			{
+				"height": 0.0
+			},
+			"input":
+			{
+				"height": 0.0
+			},
+			"layout":
+			{
+				"cells":
+				[
+					[
+						0,
+						0,
+						1,
+						1
+					]
+				],
+				"cols":
+				[
+					0.0,
+					1.0
+				],
+				"rows":
+				[
+					0.0,
+					1.0
+				]
+			},
+			"menu_visible": true,
+			"position": "656 59 1284 982 0 0 1920 1058 ",
+			"replace":
+			{
+				"height": 0.0
+			},
+			"save_all_on_build": true,
+			"select_file":
+			{
+				"height": 0.0,
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_project":
+			{
+				"height": 0.0,
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"show_minimap": true,
+			"show_open_files": false,
+			"show_tabs": true,
+			"side_bar_visible": true,
+			"side_bar_width": 150.0,
+			"status_bar_visible": true,
+			"window_id": 2,
+			"workspace_name": ""
+		}
 	],
 	"workspaces":
 	{
