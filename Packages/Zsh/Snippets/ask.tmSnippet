@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string> 
+print -n "${1:Generic question}? [y/N] "
+
+user_task_yes=( ${2:commands to execute if answer is yes }  )
+user_task_no=( ${3:commands to execute if answer is no } )
+
+timeout=30 # second until default answer takes effect
+
+function querry_user {
+        answer=""
+        read -t \$timeout -A answer
+
+        if [[ \$answer[1] == (y|Y) ]]; then
+            \$user_task_yes
+            answer=""
+        else
+            \$user_task_no
+            answer=""
+        fi
+}    
+ 
+# Execute the command:
+querry_user</string>
+	<key>name</key>
+	<string>ask</string>
+	<key>scope</key>
+	<string>source.zsh</string>
+	<key>tabTrigger</key>
+	<string>ask</string>
+	<key>uuid</key>
+	<string>D2A1D6CC-2A77-439C-8C9C-935CEC779892</string>
+</dict>
+</plist>

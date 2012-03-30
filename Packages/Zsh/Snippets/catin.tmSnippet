@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>${0:variable}="\$(&lt;${1:filename})"</string>
+	<key>name</key>
+	<string>catin</string>
+	<key>scope</key>
+	<string>source.zsh</string>
+	<key>tabTrigger</key>
+	<string>catin</string>
+	<key>uuid</key>
+	<string>4E7F0A48-78F7-48F0-890B-09816A19A468</string>
+</dict>
+</plist>

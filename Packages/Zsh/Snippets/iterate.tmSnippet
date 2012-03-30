@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>LIMIT=\$# 
+for ((i = 1; i &lt;= \$LIMIT; i++ )) do
+    eval file="\\\$\$i"
+    ${0:   print \$file  }
+done</string>
+	<key>name</key>
+	<string>iterate</string>
+	<key>scope</key>
+	<string>source.zsh</string>
+	<key>tabTrigger</key>
+	<string>looper</string>
+	<key>uuid</key>
+	<string>46E6433E-E3F9-4776-ABD6-716EC11838F3</string>
+</dict>
+</plist>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>
+# Function to display a selection list of items
+# The list must be provided as arguments to the function
+
+function osa_choose_list {
+
+if [[ -z \$prompt_text ]];then
+    prompt_text=( Choose an item: )
+fi
+     list_items="" 
+        
+    list_items=\$(printf '"%s", ' "\$@") 
+    list_items=\${list_items%, } 
+
+osascript &lt;&lt; eof
+    tell app "Finder"
+    activate
+    choose from list { \$list_items } with prompt "\$prompt_text"
+    end tell
+eof
+}
+
+chosen_list_item=(\$( osa_choose_list   "${1:option one}" "${2:option two}"  "${3:third option}" "${4:Nth option}" ))
+
+print \$chosen_list_item
+
+
+
+</string>
+	<key>name</key>
+	<string>osa_choose_list</string>
+	<key>scope</key>
+	<string>source.zsh</string>
+	<key>tabTrigger</key>
+	<string>osalist</string>
+	<key>uuid</key>
+	<string>828C0FD5-4570-4ED4-846F-03C939E15F53</string>
+</dict>
+</plist>

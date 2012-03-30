@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>osascript &lt;&lt; eof
+    tell app "Finder"
+       activate
+       ${0:#applescript code}
+    end tell
+eof</string>
+	<key>name</key>
+	<string>osa_generic</string>
+	<key>scope</key>
+	<string>source.zsh</string>
+	<key>tabTrigger</key>
+	<string>osa</string>
+	<key>uuid</key>
+	<string>A3337908-F931-4137-84F7-F93F88B6ED49</string>
+</dict>
+</plist>

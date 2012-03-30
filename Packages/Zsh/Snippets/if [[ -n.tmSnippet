@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>if [[ -n "\$${1:condition}" ]]; then
+	${0:#statements}
+else  
+	${2:#statements}
+fi</string>
+	<key>name</key>
+	<string>if [[ -n</string>
+	<key>scope</key>
+	<string>source.zsh</string>
+	<key>tabTrigger</key>
+	<string>ifn</string>
+	<key>uuid</key>
+	<string>6EC71E34-15C7-4A10-9D94-1CFD6619FCDB</string>
+</dict>
+</plist>

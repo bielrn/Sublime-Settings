@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>beforeRunningCommand</key>
+	<string>nop</string>
+	<key>bundleUUID</key>
+	<string>4694B05E-6227-11D9-BFB1-000D93589AF6</string>
+	<key>command</key>
+	<string>if chmod a+x "${TM_FILEPATH}" &amp;&amp; [[ -x "${TM_FILEPATH}" ]]
+   then echo "${TM_FILEPATH} is now executable"
+   else echo "Failed making ${TM_FILEPATH} executable"
+fi </string>
+	<key>input</key>
+	<string>none</string>
+	<key>keyEquivalent</key>
+	<string>^@X</string>
+	<key>name</key>
+	<string>Make Script Executable</string>
+	<key>output</key>
+	<string>showAsTooltip</string>
+	<key>scope</key>
+	<string>source.zsh</string>
+	<key>uuid</key>
+	<string>F70AE736-0EA8-47D3-9F6A-704843620DDB</string>
+</dict>
+</plist>

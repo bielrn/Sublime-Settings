@@ -2,26 +2,98 @@
 	"folder_history":
 	[
 	],
-	"last_window_id": 2,
+	"last_window_id": 4,
 	"settings":
 	{
-		"new_window_height": 480.0,
+		"new_window_height": 960.0,
 		"new_window_settings":
 		{
 			"auto_complete":
 			{
 				"selected_items":
 				[
+					[
+						"fa",
+						"fgaf	FactoryGirl attributes for"
+					],
+					[
+						"v",
+						"vu	validates_uniqueness_of"
+					],
+					[
+						"hm",
+						"hmt	has_many (through)"
+					],
+					[
+						"ha",
+						"has_many"
+					],
+					[
+						"h",
+						"hm	has_many"
+					],
+					[
+						"be",
+						"befs	before_save"
+					],
+					[
+						"r",
+						"rw	attr_accessor .."
+					],
+					[
+						"cla",
+						"cla	class .. end"
+					],
+					[
+						"form",
+						"form	<form>"
+					],
+					[
+						"input",
+						"input	input - file"
+					],
+					[
+						"for",
+						"form"
+					],
+					[
+						"bacc",
+						"background-color"
+					]
 				]
 			},
 			"build_system": "",
 			"command_palette":
 			{
-				"height": 0.0,
+				"height": 375.0,
 				"selected_items":
 				[
+					[
+						"ins",
+						"Package Control: Install Package"
+					],
+					[
+						"fet",
+						"Fetch"
+					],
+					[
+						"inst",
+						"Package Control: Install Package"
+					],
+					[
+						"setrub",
+						"Set Syntax: Ruby on Rails"
+					],
+					[
+						"in",
+						"Package Control: Install Package"
+					],
+					[
+						"setcs",
+						"Set Syntax: CSS"
+					]
 				],
-				"width": 0.0
+				"width": 435.0
 			},
 			"console":
 			{
@@ -38,6 +110,12 @@
 			},
 			"file_history":
 			[
+				"/Users/ericlalande/code/Ruby-Rails /Rails3Tut/sample_app/spec/requests/users_spec.rb",
+				"/Users/ericlalande/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+				"/Users/ericlalande/Desktop/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+				"/Users/ericlalande/Library/Application Support/Sublime Text 2/Packages/SublimeCodeIntel/Base File.sublime-settings",
+				"/Users/ericlalande/Library/Application Support/Sublime Text 2/Packages/Package Control/Package Control.sublime-settings",
+				"/Users/ericlalande/Library/Application Support/Sublime Text 2/Packages/Default/Preferences.sublime-settings"
 			],
 			"find":
 			{
@@ -110,6 +188,10 @@
 				"height": 0.0,
 				"selected_items":
 				[
+					[
+						"us",
+						"spec/requests/users_spec.rb"
+					]
 				],
 				"width": 0.0
 			},
@@ -128,7 +210,7 @@
 			"side_bar_width": 150.0,
 			"status_bar_visible": true
 		},
-		"new_window_width": 640.0
+		"new_window_width": 1920.0
 	},
 	"windows":
 	[
@@ -201,7 +283,7 @@
 					"file": "/Users/ericlalande/Library/Application Support/Sublime Text 2/Packages/User/Fetch.sublime-settings",
 					"settings":
 					{
-						"buffer_size": 3911,
+						"buffer_size": 3806,
 						"line_ending": "Unix"
 					}
 				},
@@ -225,16 +307,16 @@
 			"build_system": "",
 			"command_palette":
 			{
-				"height": 292.0,
+				"height": 375.0,
 				"selected_items":
 				[
 					[
-						"fet",
-						"Fetch"
-					],
-					[
 						"ins",
 						"Package Control: Install Package"
+					],
+					[
+						"fet",
+						"Fetch"
 					],
 					[
 						"inst",
@@ -343,23 +425,24 @@
 							"file": "/Users/ericlalande/Library/Application Support/Sublime Text 2/Packages/User/Fetch.sublime-settings",
 							"settings":
 							{
-								"buffer_size": 3911,
+								"buffer_size": 3806,
 								"regions":
 								{
 								},
 								"selection":
 								[
 									[
-										3834,
-										3834
+										0,
+										0
 									]
 								],
 								"settings":
 								{
-									"syntax": "Packages/JavaScript/JSON.tmLanguage"
+									"syntax": "Packages/JavaScript/JSON.tmLanguage",
+									"translate_tabs_to_spaces": false
 								},
 								"translation.x": 0.0,
-								"translation.y": 102.0,
+								"translation.y": 0.0,
 								"zoom_level": 1.0
 							},
 							"type": "text"
@@ -477,6 +560,523 @@
 			"side_bar_width": 150.0,
 			"status_bar_visible": true,
 			"window_id": 2,
+			"workspace_name": ""
+		},
+		{
+			"auto_complete":
+			{
+				"selected_items":
+				[
+					[
+						"fa",
+						"fgaf	FactoryGirl attributes for"
+					],
+					[
+						"v",
+						"vu	validates_uniqueness_of"
+					],
+					[
+						"hm",
+						"hmt	has_many (through)"
+					],
+					[
+						"ha",
+						"has_many"
+					],
+					[
+						"h",
+						"hm	has_many"
+					],
+					[
+						"be",
+						"befs	before_save"
+					],
+					[
+						"r",
+						"rw	attr_accessor .."
+					],
+					[
+						"cla",
+						"cla	class .. end"
+					],
+					[
+						"form",
+						"form	<form>"
+					],
+					[
+						"input",
+						"input	input - file"
+					],
+					[
+						"for",
+						"form"
+					],
+					[
+						"bacc",
+						"background-color"
+					]
+				]
+			},
+			"buffers":
+			[
+				{
+					"settings":
+					{
+						"buffer_size": 0,
+						"line_ending": "Unix"
+					}
+				}
+			],
+			"build_system": "",
+			"command_palette":
+			{
+				"height": 375.0,
+				"selected_items":
+				[
+					[
+						"ins",
+						"Package Control: Install Package"
+					],
+					[
+						"fet",
+						"Fetch"
+					],
+					[
+						"inst",
+						"Package Control: Install Package"
+					],
+					[
+						"setrub",
+						"Set Syntax: Ruby on Rails"
+					],
+					[
+						"in",
+						"Package Control: Install Package"
+					],
+					[
+						"setcs",
+						"Set Syntax: CSS"
+					]
+				],
+				"width": 435.0
+			},
+			"console":
+			{
+				"height": 125.0
+			},
+			"distraction_free":
+			{
+				"menu_visible": true,
+				"show_minimap": false,
+				"show_open_files": false,
+				"show_tabs": false,
+				"side_bar_visible": false,
+				"status_bar_visible": false
+			},
+			"file_history":
+			[
+				"/Users/ericlalande/code/Ruby-Rails /Rails3Tut/sample_app/spec/requests/users_spec.rb",
+				"/Users/ericlalande/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+				"/Users/ericlalande/Desktop/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+				"/Users/ericlalande/Library/Application Support/Sublime Text 2/Packages/SublimeCodeIntel/Base File.sublime-settings",
+				"/Users/ericlalande/Library/Application Support/Sublime Text 2/Packages/Package Control/Package Control.sublime-settings",
+				"/Users/ericlalande/Library/Application Support/Sublime Text 2/Packages/Default/Preferences.sublime-settings"
+			],
+			"find":
+			{
+				"height": 0.0
+			},
+			"find_in_files":
+			{
+				"height": 0.0,
+				"where_history":
+				[
+				]
+			},
+			"find_state":
+			{
+				"case_sensitive": false,
+				"find_history":
+				[
+				],
+				"highlight": true,
+				"in_selection": false,
+				"preserve_case": false,
+				"regex": false,
+				"replace_history":
+				[
+				],
+				"reverse": false,
+				"show_context": true,
+				"use_buffer2": true,
+				"whole_word": false,
+				"wrap": true
+			},
+			"folders":
+			[
+				{
+					"path": "/Users/ericlalande/code/Ruby-Rails /Rails3Tut/sample_app"
+				}
+			],
+			"groups":
+			[
+				{
+					"selected": 0,
+					"sheets":
+					[
+						{
+							"buffer": 0,
+							"settings":
+							{
+								"buffer_size": 0,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										0,
+										0
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/Text/Plain text.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"type": "text"
+						}
+					]
+				}
+			],
+			"incremental_find":
+			{
+				"height": 0.0
+			},
+			"input":
+			{
+				"height": 0.0
+			},
+			"layout":
+			{
+				"cells":
+				[
+					[
+						0,
+						0,
+						1,
+						1
+					]
+				],
+				"cols":
+				[
+					0.0,
+					1.0
+				],
+				"rows":
+				[
+					0.0,
+					1.0
+				]
+			},
+			"menu_visible": true,
+			"position": "0 76 1920 982 0 0 1920 1058 ",
+			"replace":
+			{
+				"height": 0.0
+			},
+			"save_all_on_build": true,
+			"select_file":
+			{
+				"height": 0.0,
+				"selected_items":
+				[
+					[
+						"us",
+						"spec/requests/users_spec.rb"
+					]
+				],
+				"width": 0.0
+			},
+			"select_project":
+			{
+				"height": 0.0,
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"show_minimap": true,
+			"show_open_files": false,
+			"show_tabs": true,
+			"side_bar_visible": true,
+			"side_bar_width": 150.0,
+			"status_bar_visible": true,
+			"window_id": 3,
+			"workspace_name": ""
+		},
+		{
+			"auto_complete":
+			{
+				"selected_items":
+				[
+					[
+						"fa",
+						"fgaf	FactoryGirl attributes for"
+					],
+					[
+						"v",
+						"vu	validates_uniqueness_of"
+					],
+					[
+						"hm",
+						"hmt	has_many (through)"
+					],
+					[
+						"ha",
+						"has_many"
+					],
+					[
+						"h",
+						"hm	has_many"
+					],
+					[
+						"be",
+						"befs	before_save"
+					],
+					[
+						"r",
+						"rw	attr_accessor .."
+					],
+					[
+						"cla",
+						"cla	class .. end"
+					],
+					[
+						"form",
+						"form	<form>"
+					],
+					[
+						"input",
+						"input	input - file"
+					],
+					[
+						"for",
+						"form"
+					],
+					[
+						"bacc",
+						"background-color"
+					]
+				]
+			},
+			"buffers":
+			[
+				{
+					"contents": "<!DOCTYPE HTML>\n<html lang=\"en-US\">\n<head>\n	<meta charset=\"UTF-8\">\n	<title></title>\n</head>\n<body>\n	<div class=\"container\">\n		<header>\n			<h1>Black + White</h1>\n			<nav>\n				<ul>\n					<li><a href=\"#\">Home</a></li>\n					<li><a href=\"#\">Our Services</a></li>\n					<li><a href=\"#\">How We Work</a></li>\n					<li><a href=\"#\">Testimoniials</a></li>\n					<li><a href=\"#\">Work Examples</a></li>\n				</ul>\n			</nav>\n		</header>\n		<footer>\n			<p>black + white</p>\n		</footer>\n	</div>\n</body>\n</html>",
+					"file": "/Users/ericlalande/Desktop/30 Days - HTML-CSS/Day 26/index.html",
+					"file_size": 0,
+					"file_write_time": 1333144357000000,
+					"settings":
+					{
+						"buffer_size": 489,
+						"line_ending": "Unix"
+					}
+				}
+			],
+			"build_system": "",
+			"command_palette":
+			{
+				"height": 375.0,
+				"selected_items":
+				[
+					[
+						"ins",
+						"Package Control: Install Package"
+					],
+					[
+						"fet",
+						"Fetch"
+					],
+					[
+						"inst",
+						"Package Control: Install Package"
+					],
+					[
+						"setrub",
+						"Set Syntax: Ruby on Rails"
+					],
+					[
+						"in",
+						"Package Control: Install Package"
+					],
+					[
+						"setcs",
+						"Set Syntax: CSS"
+					]
+				],
+				"width": 588.0
+			},
+			"console":
+			{
+				"height": 125.0
+			},
+			"distraction_free":
+			{
+				"menu_visible": true,
+				"show_minimap": false,
+				"show_open_files": false,
+				"show_tabs": false,
+				"side_bar_visible": false,
+				"status_bar_visible": false
+			},
+			"file_history":
+			[
+				"/Users/ericlalande/code/Ruby-Rails /Rails3Tut/sample_app/spec/requests/users_spec.rb",
+				"/Users/ericlalande/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+				"/Users/ericlalande/Desktop/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+				"/Users/ericlalande/Library/Application Support/Sublime Text 2/Packages/SublimeCodeIntel/Base File.sublime-settings",
+				"/Users/ericlalande/Library/Application Support/Sublime Text 2/Packages/Package Control/Package Control.sublime-settings",
+				"/Users/ericlalande/Library/Application Support/Sublime Text 2/Packages/Default/Preferences.sublime-settings"
+			],
+			"find":
+			{
+				"height": 0.0
+			},
+			"find_in_files":
+			{
+				"height": 94.0,
+				"where_history":
+				[
+				]
+			},
+			"find_state":
+			{
+				"case_sensitive": false,
+				"find_history":
+				[
+				],
+				"highlight": true,
+				"in_selection": false,
+				"preserve_case": false,
+				"regex": false,
+				"replace_history":
+				[
+				],
+				"reverse": false,
+				"show_context": true,
+				"use_buffer2": true,
+				"whole_word": false,
+				"wrap": true
+			},
+			"folders":
+			[
+				{
+					"path": "/Users/ericlalande/Desktop/30 Days - HTML-CSS"
+				}
+			],
+			"groups":
+			[
+				{
+					"selected": 0,
+					"sheets":
+					[
+						{
+							"buffer": 0,
+							"file": "/Users/ericlalande/Desktop/30 Days - HTML-CSS/Day 26/index.html",
+							"settings":
+							{
+								"buffer_size": 489,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										100,
+										100
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/HTML/HTML.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"type": "text"
+						}
+					]
+				}
+			],
+			"incremental_find":
+			{
+				"height": 0.0
+			},
+			"input":
+			{
+				"height": 0.0
+			},
+			"layout":
+			{
+				"cells":
+				[
+					[
+						0,
+						0,
+						1,
+						1
+					]
+				],
+				"cols":
+				[
+					0.0,
+					1.0
+				],
+				"rows":
+				[
+					0.0,
+					1.0
+				]
+			},
+			"menu_visible": true,
+			"position": "0 76 1920 982 0 0 1920 1058 ",
+			"replace":
+			{
+				"height": 0.0
+			},
+			"save_all_on_build": true,
+			"select_file":
+			{
+				"height": 0.0,
+				"selected_items":
+				[
+					[
+						"us",
+						"spec/requests/users_spec.rb"
+					]
+				],
+				"width": 0.0
+			},
+			"select_project":
+			{
+				"height": 0.0,
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"show_minimap": true,
+			"show_open_files": false,
+			"show_tabs": true,
+			"side_bar_visible": true,
+			"side_bar_width": 150.0,
+			"status_bar_visible": true,
+			"window_id": 4,
 			"workspace_name": ""
 		}
 	],

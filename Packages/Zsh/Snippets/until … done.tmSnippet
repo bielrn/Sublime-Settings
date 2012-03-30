@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>until [[ ${1:condition} ]]; do
+	${0:#statements}
+done</string>
+	<key>name</key>
+	<string>until … done</string>
+	<key>scope</key>
+	<string>source.zsh</string>
+	<key>tabTrigger</key>
+	<string>until</string>
+	<key>uuid</key>
+	<string>02447003-415E-4E1C-A177-88E03A483076</string>
+</dict>
+</plist>

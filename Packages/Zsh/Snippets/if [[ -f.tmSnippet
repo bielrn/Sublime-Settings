@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>if [[ -f "${1:/path/to/file}" ]]; then
+	${0:#statements}
+else  
+	${2:#statements}
+fi</string>
+	<key>name</key>
+	<string>if [[ -f</string>
+	<key>scope</key>
+	<string>source.zsh</string>
+	<key>tabTrigger</key>
+	<string>iff</string>
+	<key>uuid</key>
+	<string>60F0D82D-6EE6-49AB-A9D8-D75D0D33DEEB</string>
+</dict>
+</plist>

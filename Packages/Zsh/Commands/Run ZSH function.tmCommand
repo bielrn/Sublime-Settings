@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>beforeRunningCommand</key>
+	<string>nop</string>
+	<key>bundleUUID</key>
+	<string>4694B05E-6227-11D9-BFB1-000D93589AF6</string>
+	<key>command</key>
+	<string>#!/bin/zsh -il
+
+# set -x
+
+# Popup dialog box to get the arguments for the shell-script
+# Cocoa-Dialog does the same thing but I can't get it to work
+function GetArgs {
+    osascript &lt;&lt; eof-1
+        tell app "Finder"
+            activate
+            set prompt to "Enter a list of arguments or hit OK to leave blank: "
+            set dialogResult to display dialog prompt default answer ""
+        end tell
+
+eof-1
+}
+
+
+
+arg_array=( $( GetArgs | cut -f 2 -d ":" | cut -f 1 -d "," ))
+ThePath=( "$TM_DIRECTORY" )
+BaseName=( $(basename "$TM_FILEPATH" ) )
+
+ 
+function html_header {
+	export HTML_TITLE=$1
+	export HTML_SUB_TITLE=$2
+	"${TM_RUBY:-ruby}" -r"$TM_SUPPORT_PATH/lib/web_preview.rb" -e 'html_header(ENV["HTML_TITLE"], ENV["HTML_SUB_TITLE"])'
+}
+
+function html_footer { echo $'	&lt;/div&gt;\n&lt;/body&gt;\n&lt;/html&gt;' }
+
+
+
+html_header "Running ‘${TM_FILENAME} ${arg_array}’ in $TM_DIRECTORY"
+
+
+print "Output from command sequence \"$BaseName $arg_array\""
+
+# Format the command standard output to appear within a box with proper line breaks
+echo "&lt;br /&gt;&lt;br /&gt;&lt;pre&gt;"
+
+# load the function, reload it (just in case), run the command, report on its success
+
+autoload -U $BaseName
+# reload $BaseName
+$BaseName $arg_array
+
+exitstatus=$?
+
+echo "&lt;/pre&gt;&lt;br /&gt;"
+
+# Tell us if it worked:
+print "Exiting with status $exitstatus"
+
+html_footer
+
+logout
+
+</string>
+	<key>input</key>
+	<string>none</string>
+	<key>keyEquivalent</key>
+	<string>^@R</string>
+	<key>name</key>
+	<string>Run ZSH function</string>
+	<key>output</key>
+	<string>showAsHTML</string>
+	<key>scope</key>
+	<string>source.zsh</string>
+	<key>uuid</key>
+	<string>2072A8BC-2C95-4A58-A624-17357E3E1521</string>
+</dict>
+</plist>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>\e[7m </string>
+	<key>name</key>
+	<string>reverse-video</string>
+	<key>scope</key>
+	<string>source.zsh</string>
+	<key>tabTrigger</key>
+	<string>reverse</string>
+	<key>uuid</key>
+	<string>D0CA6EA2-73E2-4A2F-8AA8-FBD0A3EF2993</string>
+</dict>
+</plist>

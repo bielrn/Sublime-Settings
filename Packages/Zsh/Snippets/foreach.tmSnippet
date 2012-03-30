@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>foreach ${1:file} in ${2:selection}
+	${0:#operation goes here}
+end</string>
+	<key>name</key>
+	<string>foreach</string>
+	<key>scope</key>
+	<string>source.zsh</string>
+	<key>tabTrigger</key>
+	<string>foreach</string>
+	<key>uuid</key>
+	<string>925A72FF-9F5D-4A73-A167-A00C2706691F</string>
+</dict>
+</plist>

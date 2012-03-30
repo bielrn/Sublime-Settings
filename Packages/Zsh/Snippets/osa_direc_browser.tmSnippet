@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>
+# Function to return the full POSIX path of the selected directory
+
+
+
+function osa_direc_browser {
+
+osascript &lt;&lt; eof
+tell app "Finder"
+     activate
+     set f to POSIX path of ((choose folder with prompt \\
+     "Select a directory (folder):\\
+       \$Example") as string) 
+     end
+eof
+
+}
+
+Example=${0:/path/to/nowhere}
+
+direc_path_array=(\$( osa_direc_browser ))
+
+print \$direc_path_array</string>
+	<key>name</key>
+	<string>osa_direc_browser</string>
+	<key>scope</key>
+	<string>source.zsh</string>
+	<key>tabTrigger</key>
+	<string>osadir</string>
+	<key>uuid</key>
+	<string>0B1B3AB3-B741-4E59-BA96-52B0A30BCDFB</string>
+</dict>
+</plist>
