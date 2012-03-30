@@ -158,6 +158,14 @@
 					}
 				},
 				{
+					"contents": "<!DOCTYPE HTML>\n<html lang=\"en-US\">\n<head>\n	<meta charset=\"UTF-8\">\n	<title></title>\n</head>\n<body>\n	\n</body>\n</html>",
+					"settings":
+					{
+						"buffer_size": 116,
+						"line_ending": "Unix"
+					}
+				},
+				{
 					"file": "/Users/ericlalande/Desktop/Sublime Text 2/Packages/User/Preferences.sublime-settings",
 					"settings":
 					{
@@ -169,15 +177,23 @@
 			"build_system": "",
 			"command_palette":
 			{
-				"height": 167.0,
+				"height": 375.0,
 				"selected_items":
 				[
+					[
+						"ins",
+						"Package Control: Install Package"
+					],
+					[
+						"in",
+						"Package Control: Install Package"
+					],
 					[
 						"inst",
 						"Package Control: Install Package"
 					]
 				],
-				"width": 449.0
+				"width": 561.0
 			},
 			"console":
 			{
@@ -228,7 +244,7 @@
 			"groups":
 			[
 				{
-					"selected": 1,
+					"selected": 2,
 					"sheets":
 					[
 						{
@@ -287,6 +303,31 @@
 						},
 						{
 							"buffer": 2,
+							"settings":
+							{
+								"buffer_size": 116,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										100,
+										100
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/HTML/HTML.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"type": "text"
+						},
+						{
+							"buffer": 3,
 							"file": "/Users/ericlalande/Desktop/Sublime Text 2/Packages/User/Preferences.sublime-settings",
 							"settings":
 							{
@@ -346,7 +387,7 @@
 				]
 			},
 			"menu_visible": true,
-			"position": "678 -41 960 982 0 0 1920 1058 ",
+			"position": "959 76 960 982 0 0 1920 1058 ",
 			"replace":
 			{
 				"height": 0.0

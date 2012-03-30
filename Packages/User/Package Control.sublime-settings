@@ -2,6 +2,7 @@
 	"auto_upgrade_last_run": 1333134553,
 	"installed_packages":
 	[
+		"SublimeCodeIntel",
 		"Theme - Soda",
 		"ZenCoding"
 	]
