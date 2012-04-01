@@ -1,8 +1,26 @@
-// Settings in here override those in "Default/Preferences.sublime-settings", and
-// are overridden in turn by file type specific settings.
-{// Sets the colors used within the text area
-"color_scheme": "Packages/Railscasts.tmTheme",
+{
+	"auto_complete_commit_on_tab": true,
+	"auto_complete_delay": 20,
+	"auto_complete_triggers":
+	[
+		{
+			"characters": "<",
+			"selector": "text.html"
+		},
+		{
+			"characters": "/",
+			"selector": "string.quoted.double.html,string.quoted.single.html, source.css"
+		}
+	],
+	"color_scheme": "/Users/ericlalande/Library/Application Support/Sublime Text 2/Packages/Railscasts.tmTheme",
+	"draw_minimap_border": true,
+	"draw_white_space": "all",
 	"font_face": "Monofur",
 	"font_size": 18.0,
+	"highlight_line": true,
+	"ignored_packages":
+	[
+	],
+	"open_files_in_new_window": false,
 	"theme": "Soda Dark.sublime-theme"
 }

@@ -255,7 +255,7 @@
     "use_simple_full_screen": false,
 
     // Valid values are "system", "enabled" and "disabled"
-    "overlay_scroll_bars": "system",
+    "overlay_scroll_bars": "enabled",
 
     //
     // Application Behavior Settings
